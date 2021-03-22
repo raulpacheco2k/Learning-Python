@@ -19,7 +19,7 @@ def get_height():
         try:
             height = int(input('How tall are you in centimeters? '))
         except ValueError:
-            print("Valor invalido insera novamente.")
+            print("Invalid value. Please, type your height in centimeters.")
             continue
         else:
             return height
