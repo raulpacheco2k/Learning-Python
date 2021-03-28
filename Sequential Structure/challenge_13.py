@@ -5,12 +5,15 @@
 
 def get_gender():
     while True:
-        genre = str(input('You are male or female? Insert M or F: ')).upper()
+        genre = str(input('You are male or female? Insert W or M: ')).upper()
 
-        if genre in ('M', 'F'):
-            return genre
+        if genre in ('W', 'M'):
+            if genre == "W":
+                return "Woman"
+            else:
+                return "Man"
         else:
-            print('Unidentified gender. Try again. ')
+            print('Invalid Gender. Try again. ')
             continue
 
 
@@ -29,7 +32,7 @@ def calculate_ideal_weight():
     genre = get_gender()
     height = get_height()
 
-    if genre == 'M':
+    if genre == 'Man':
         weight = (72.7 * (height / 100)) - 58
     else:
         weight = (62.1 * (height / 100)) - 58
