@@ -4,12 +4,13 @@
 
 
 def get_float_number(parameter):
-    try:
-        float_number = float(input(parameter))
-    except ValueError:
-        print("This value is not valid, please type a number.")
-    else:
-        return float_number
+    while True:
+        try:
+            float_number = float(input(parameter))
+        except ValueError:
+            print("This value is not valid, please type a number.")
+        else:
+            return float_number
 
 
 area = get_float_number("How many square meters will be painted? ")
