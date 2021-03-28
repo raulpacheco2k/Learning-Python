@@ -1,4 +1,4 @@
-# Make a Program that asks for two numbers and prints out the larger of them.
+# Make a Program that asks for a value and shows on the screen whether the value is positive or negative.
 
 number = float(input("Type a number: "))
 
