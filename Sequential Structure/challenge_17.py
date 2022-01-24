@@ -1,8 +1,8 @@
-# Make a Program for a paint store. The program should ask for the size in square meters of the area to be painted.
-# Consider that the coverage of the paint is 1 liter for every 6 square meters and that the paint is sold in cans
-# of 18 liters, which cost R$ 80.00 or in gallons of 3.6 liters, which cost R$ 25.00.
-# Tell the user the quantities of paint to be purchased and the respective prices.
-# Round the values up, that is, consider full cans.
+# Faça um programa para uma loja de tintas. O programa deve solicitar o tamanho em metros quadrados da área a ser
+# pintada. Considere que a cobertura da tinta é de 1 litro para cada 6 metros quadrados e que a tinta é vendida em
+# latas de 18 litros, que custam R$ 80,00 ou em galões de 3,6 litros, que custam R$ 25,00. Informe ao usuário as
+# quantidades de tinta a serem adquiridas e os respectivos preços. Arredonde os valores para cima, ou seja,
+# considere latas cheias.
 
 def get_float_number(parameter):
     while True:

@@ -1,4 +1,4 @@
-# Make a Program that asks for a value and shows on the screen whether the value is positive or negative.
+# Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
 
 number = float(input("Type a number: "))
 

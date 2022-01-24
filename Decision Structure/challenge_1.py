@@ -1,4 +1,4 @@
-# Make a Program that asks for two numbers and prints out the larger of them.
+# Faça um Programa que peça dois números e imprima o maior deles.
 
 first_number = float(input("Enter the first number: "))
 second_number = float(input("Enter the second number: "))

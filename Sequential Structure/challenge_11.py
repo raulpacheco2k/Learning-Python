@@ -1,7 +1,7 @@
-# Make a Program that asks for 2 whole numbers and a real number. Calculate and show:
-# The product of double the first with half the second.
-# The sum of triple the first with the third.
-# The third cubed.
+# Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
+# O produto do dobro do primeiro com a metade do segundo.
+# A soma do triplo do primeiro com o terceiro.
+# O terceiro ao cubo.
 
 whole_number_one = int(input('Type first whole number: '))
 whole_number_two = int(input('Type second whole number: '))

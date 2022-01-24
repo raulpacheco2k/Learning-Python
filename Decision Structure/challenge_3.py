@@ -1,5 +1,5 @@
-# Make a program that checks if a letter typed is "F" or "M".
-# Write Female if the letter is F or Male if the letter is M if neither of them write Invalid Gender.
+# Faça um programa que verifique se uma letra digitada é "F" ou "M".
+# Escreva Feminino se a letra for F ou Masculino se a letra for M se nenhum dos dois escrever Sexo Inválido.
 
 def get_gender():
     while True:

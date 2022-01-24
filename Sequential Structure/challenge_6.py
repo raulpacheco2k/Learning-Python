@@ -1,4 +1,4 @@
-# Make a program that asks for the radius of a circle, calculate and show its area.
+# Faça um programa que peça o raio de um círculo, calcule e mostre sua área.
 
 def circle_radius():
     circle_radius = float(input('What is circle radius in meters? '))

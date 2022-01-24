@@ -1,4 +1,5 @@
-# Taking as input data the height of a person, build an algorithm that calculates your ideal weight, using the following formula: (72.7*altura) - 58
+# Tomando como dado de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal,
+# usando a seguinte fórmula: (72,7*altura) - 58
 
 def get_height():
     while True:

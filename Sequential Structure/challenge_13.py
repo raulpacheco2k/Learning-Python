@@ -1,7 +1,7 @@
-# Having as input the height (h) of a person, build an algorithm that calculates your ideal weight,
-# use the following formulas:
-# For man: (72.7*h) - 58
-# For women: (62.1*h) - 44.7
+# Tendo como entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal,
+# use as seguintes fórmulas:
+# Para homem: (72,7*h) - 58
+# Para mulheres: (62,1*h) - 44,7
 
 def get_gender():
     while True:

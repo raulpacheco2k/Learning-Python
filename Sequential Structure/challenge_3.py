@@ -1,4 +1,4 @@
-# Make a program that asks for two numbers and prints the sum.
+# Faça um programa que peça dois números e imprima a soma.
 
 print("let's sum!")
 number_one = int(input('Insert a first number: '))

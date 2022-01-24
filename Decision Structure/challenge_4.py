@@ -1,4 +1,5 @@
-# Make a Program that checks if a letter is a vowel or consonant.
+# Faça um programa que verifique se uma letra digitada é "F" ou "M".
+# Escreva Feminino se a letra for F ou Masculino se a letra for M se nenhum dos dois escrever Sexo Inválido.
 
 def vowel_or_consonant():
     while True:

@@ -1,4 +1,4 @@
-# Make a program that asks for the 4 bimonthly notes and shows the average.
+# Faça um programa que peça as 4 notas bimestrais e mostre a média.
 
 notes = []
 

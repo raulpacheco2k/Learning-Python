@@ -1,4 +1,4 @@
-# Make a program that asks for the temperature in degrees Fahrenheit, transform and show the temperature in degrees Celsius.
+# Faça um programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
 
 temperature_fahrenheit = float(input('what is the temperature in degrees Fahrenheit? '))
 

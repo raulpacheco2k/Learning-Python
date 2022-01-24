@@ -1,4 +1,4 @@
-# Make a program that converts meters to centimeters.
+# Faça um programa que converta metros em centímetros.
 
 notes = []
 

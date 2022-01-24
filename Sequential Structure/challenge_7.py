@@ -1,4 +1,4 @@
-# Make a program that calculates the area of a square, then show the user double that area.
+# Faça um programa que calcule a área de um quadrado, então mostre ao usuário o dobro dessa área.
 
 def double_area():
     axis_x = float(input('Insert a X axis of the square: '))
