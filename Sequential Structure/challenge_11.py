@@ -3,10 +3,10 @@
 # A soma do triplo do primeiro com o terceiro.
 # O terceiro ao cubo.
 
-whole_number_one = int(input('Type first whole number: '))
-whole_number_two = int(input('Type second whole number: '))
-real_number = float(input('Type second real number: '))
+whole_number_one = int(input('Digite o primeiro número inteiro:'))
+whole_number_two = int(input('Digite o segundo número inteiro:'))
+real_number = float(input('Digite um número real:'))
 
-print(f"The product of double the first with half the second: {(whole_number_one * 2) * (whole_number_two / 2)}.")
-print(f'The sum of triple the first with the third: {(whole_number_one * 3) + real_number}.')
-print(f'The third cubed: {real_number ** 3}.')
+print(f"O produto do dobro do primeiro pela metade do segundo: {(whole_number_one * 2) * (whole_number_two / 2)}.")
+print(f'A soma do triplo do primeiro com o terceiro: {(whole_number_one * 3) + real_number}.')
+print(f'O terceiro ao cubo: {real_number ** 3}.')

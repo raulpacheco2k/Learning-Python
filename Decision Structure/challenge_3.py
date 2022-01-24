@@ -3,15 +3,15 @@
 
 def get_gender():
     while True:
-        genre = str(input('You are male or female? Insert W or M: ')).upper()
+        genre = str(input('Você é homem ou mulher? Insira H para homem ou M para mulher: ')).upper()
 
-        if genre in ('W', 'M'):
-            if genre == "W":
-                return "Woman"
+        if genre in ('H', 'M'):
+            if genre == "H":
+                return "Homem"
             else:
-                return "Man"
+                return "Mulher"
         else:
-            print('Invalid Gender. Try again. ')
+            print('Gênero inválido. Tente novamente.')
             continue
 
 

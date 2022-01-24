@@ -1,8 +1,8 @@
 # Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
 
-number = float(input("Type a number: "))
+number = float(input("Digite um número: "))
 
 if number > 0:
-    print("The number is positive, that is, greater than zero.")
+    print("O número é positivo, ou seja, maior que zero.")
 else:
-    print("The number is negative, that is, less than zero.")
+    print("O número é negativo, ou seja, menor que zero.")

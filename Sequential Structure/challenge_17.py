@@ -9,12 +9,12 @@ def get_float_number(parameter):
         try:
             float_number = float(input(parameter))
         except ValueError:
-            print("This value is not valid, please type a number.")
+            print("Este valor não é válido, digite um número.")
         else:
             return float_number
 
 
-area = get_float_number("How many square meters will be painted? ")
+area = get_float_number("Quantos metros quadrados serão pintados? ")
 liters_required = area / 6
 can_of_paint = 0
 paint_gallon = 0
@@ -30,4 +30,4 @@ while True:
             break
 
 price = (can_of_paint * 80) + (paint_gallon * 25)
-print(f"You will need {can_of_paint} can of paint and {paint_gallon} gallons of paint, it will cost ${price}.")
+print(f"Você precisará de {can_of_paint} latas de tinta e {paint_gallon} galões de tinta, custará R$ {price}.")

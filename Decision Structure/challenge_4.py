@@ -3,13 +3,13 @@
 
 def vowel_or_consonant():
     while True:
-        letter = str(input("Enter a letter: ")).upper()
+        letter = str(input("Digite uma letra: ")).upper()
 
         if validates_if_it_is_a_letter(letter):
             if letter in ("A", "E", "I", "O", "U"):
-                print("The letter is a vowel.")
+                print("A letra é uma vogal.")
             else:
-                print("The letter is a consonant.")
+                print("A letra é uma consoante.")
             break
         else:
             continue
@@ -17,9 +17,9 @@ def vowel_or_consonant():
 
 def validates_if_it_is_a_letter(letter):
     if len(letter) > 1:
-        print("digite somente uma letra")
+        print("Digite somente uma letra")
     elif letter in "1234567890":
-        print("digite uma letra.")
+        print("Digite uma letra.")
     else:
         return True
 

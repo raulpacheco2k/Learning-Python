@@ -2,13 +2,13 @@
 
 notes = []
 
-print('Converting meters to centimeters!')
+print('Convertendo metros para centímetros!')
 
 while True:
     try:
-        meters = float(input('Meters: '))
+        meters = float(input('Metros: '))
         break
     except ValueError:
-        print('Please, insert a number.')
+        print('Por favor, insira um número.')
 
-print(f"{meters} meters is {meters*100} centimeters.")
+print(f"{meters} metros é {meters*100} centímetros.")

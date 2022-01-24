@@ -31,21 +31,21 @@ def discount_syncidate(salary):
     return discount
 
 
-hourly_wage = float(input('What is your hourly wage? '))
-hours_worked = float(input('How many hours did you work? '))
+hourly_wage = float(input('Qual é o seu salário por hora? '))
+hours_worked = float(input('Quantas horas você trabalhou? '))
 
 salary = hours_worked * hourly_wage
 
-print(f"Seu salário bruto é ${salary}")
-print("Aplicando os descontos da folha de pagamento...")
+print(f"Seu salário bruto é R$ {salary}")
+print("Aplicando os entrega da folha de pagamento...")
 
-print(f"${salary} - ${discount_income_tax(salary):.2f} = ${salary - discount_income_tax(salary):.2f}")
+print(f"R$ {salary} - ${discount_income_tax(salary):.2f} = R$ {salary - discount_income_tax(salary):.2f}")
 salary = salary - discount_income_tax(salary)
-print(f"${salary} - ${discount_inss(salary):.2f} = ${salary - discount_inss(salary):.2f} ")
+print(f"R$ {salary} - ${discount_inss(salary):.2f} = R$ {salary - discount_inss(salary):.2f} ")
 salary = salary - discount_inss(salary)
-print(f"${salary} - ${discount_syncidate(salary):.2f} = ${salary - discount_syncidate(salary):.2f}")
+print(f"R$ {salary} - ${discount_syncidate(salary):.2f} = R$ {salary - discount_syncidate(salary):.2f}")
 salary = salary - discount_syncidate(salary)
 
-print(f"Your net salary is: {salary:.2f}")
+print(f"Seu salário líquido é: R$ {salary:.2f}")
 
 

@@ -2,10 +2,10 @@
 
 notes = []
 
-print('Bimonthly average calculation!')
+print('Cálculo médio bimestral!')
 
 for i in range(1, 5):
-    note = int(input(f'Insert: '))
+    note = int(input(f'Inserir uma nota: '))
     notes.append(note)
 
-print(f"Your bimonthly average is {sum(notes)/4}.")
+print(f"Sua média bimestral é: {sum(notes)/4}.")

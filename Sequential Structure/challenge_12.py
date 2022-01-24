@@ -4,9 +4,9 @@
 def get_height():
     while True:
         try:
-            height = int(input('How tall are you in centimeters? '))
+            height = int(input('Qual a sua altura em centímetros?'))
         except ValueError:
-            print('Please, type a valid number.. Try again.')
+            print('Por favor, digite um número válido. Tente novamente.')
         else:
             return height
 
@@ -15,4 +15,4 @@ height = get_height()
 
 weight = (72.7 * (height/100)) - 58
 
-print(f'Your ideal weight is {weight:.2f}Kg.')
+print(f'Seu peso ideal é {weight:.2f}Kg.')

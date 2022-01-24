@@ -1,7 +1,7 @@
 # Faça um programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
 
-temperature_celsius = float(input('what is the temperature in degrees CelsiusFahrenheit? '))
+temperature_celsius = float(input('Qual a temperatura em graus Celsius?'))
 
 fahrenheit = (1.8 * temperature_celsius) + 32
 
-print(f"The temperature in Celsius is {fahrenheit:.2f}")
+print(f"A temperatura em Fahrenheit é {fahrenheit:.2f}")
