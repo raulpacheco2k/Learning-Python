@@ -35,7 +35,7 @@ def calculate_ideal_weight():
     if genre == 'Man':
         weight = (72.7 * (height / 100)) - 58
     else:
-        weight = (62.1 * (height / 100)) - 58
+        weight = (62.1 * (height / 100)) - 44.7
     return weight
 
 
